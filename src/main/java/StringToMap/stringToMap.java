@@ -28,6 +28,7 @@ public class stringToMap {
             ObjectMapper mapper = new ObjectMapper();
             map = mapper.readValue(json, new TypeReference<Map<String, String>>(){});
 
+            map.put("channel","new");
             System.out.println(map);
 
         } catch (JsonGenerationException e) {
