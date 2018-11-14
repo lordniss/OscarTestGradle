@@ -35,7 +35,7 @@ public class stringToMap {
             e.printStackTrace();
         } catch (JsonMappingException e) {
             e.printStackTrace();
-        } catch (IOException e) {
+        } catch (IOException e) {//
             e.printStackTrace();
         }
     }
