@@ -33,7 +33,7 @@ public class stringToMap {
 
         } catch (JsonGenerationException e) {
             e.printStackTrace();
-        } catch (JsonMappingException e) {///test
+        } catch (JsonMappingException e) {///test22
             e.printStackTrace();
         } catch (IOException e) {//
             e.printStackTrace();
