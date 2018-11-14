@@ -12,5 +12,8 @@ public class testClass {
         System.out.println(test);
         test = test.substring(1,test.length()-2);
         System.out.println(test);
+
+        String test_usb = "{\"channel\":\"123456\"}";
+
     }
 }
